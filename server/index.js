@@ -2,8 +2,10 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' });
+  res.send({ bye: 'buddy' });
 });
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
+
+// https://git.heroku.com/murmuring-plateau-82225.git
